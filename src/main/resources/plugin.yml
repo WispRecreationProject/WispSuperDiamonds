@@ -1,0 +1,4 @@
+name: WispSuperDiamonds
+version: ${project.version}
+main: dev.yhdiamond.wispsuperdiamonds.WispSuperDiamonds
+api-version: 1.16
