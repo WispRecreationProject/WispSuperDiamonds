@@ -44,16 +44,16 @@ public class ItemManager {
             .enchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 4)
             .enchantment(Enchantment.THORNS, 2)
             .build();
-    public static ItemStack SUPER_LEGGINGS = ItemBuilder.of(Material.DIAMOND, 1)
+    public static ItemStack SUPER_LEGGINGS = ItemBuilder.of(Material.DIAMOND_LEGGINGS, 1)
             .name(ChatColor.AQUA + "" +  ChatColor.BOLD + "Super Diamond Leggings")
             .enchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 4)
             .build();
-    public static ItemStack SUPER_HELMET = ItemBuilder.of(Material.DIAMOND, 1)
+    public static ItemStack SUPER_HELMET = ItemBuilder.of(Material.DIAMOND_HELMET, 1)
             .name(ChatColor.AQUA + "" +  ChatColor.BOLD + "Super Diamond Helmet")
             .enchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 4)
             .enchantment(Enchantment.OXYGEN, 3)
             .build();
-    public static ItemStack SUPER_BOOTS = ItemBuilder.of(Material.DIAMOND, 1)
+    public static ItemStack SUPER_BOOTS = ItemBuilder.of(Material.DIAMOND_BOOTS, 1)
             .name(ChatColor.AQUA + "" +  ChatColor.BOLD + "Super Diamond Boots")
             .enchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 4)
             .enchantment(Enchantment.DEPTH_STRIDER, 3)
